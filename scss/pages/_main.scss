@@ -1,0 +1,50 @@
+main{
+    article{
+        background-image: $bg-img;
+        padding: 25% 0 25% 0;
+        &#faq{
+            background-image: none;
+
+            section{
+                background-color: $clair;
+                margin:0.3em 1em;
+                border-radius: 0.3em;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 1em;
+                    height: auto;
+                }
+            }
+
+        }
+        &#perf{
+            clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+            section{
+                margin: 0.5em auto;
+            }
+        }
+        &#remb{
+            clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+        }
+        
+        hr{
+            width: 25%;
+            margin: 0.2em auto 1em auto;
+
+        }
+        button{
+            color:$clair;
+            background-color: $violet;
+            font-family: $font2;
+            font-size: 1em;
+            border-radius: 1.5em;
+            padding: 0.8em 1.5em;
+            margin: 1em;
+            border: none;
+        }
+    }
+
+
+
+}

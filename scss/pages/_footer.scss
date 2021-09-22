@@ -1,14 +1,14 @@
 footer{
     color: $ardoise;
     font-family: $font2;
-    position: fixed;
-    left: 0;
+    // position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    
     background-color: $clair;
     border-top: 1px dotted $ardoise;
     padding-bottom: 1em;
+    margin-top: 2em;
     h2{
         margin: 0.5em;
     }

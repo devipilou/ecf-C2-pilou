@@ -1,0 +1,22 @@
+header{
+    nav{
+        height: 1.5em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: $mobile){
+    header{
+        nav{
+
+        }
+        img{
+            max-width: $desktop;
+        }
+    }
+}

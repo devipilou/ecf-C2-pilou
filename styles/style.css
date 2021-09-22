@@ -4,17 +4,72 @@
   padding: 0;
 }
 
+header nav {
+  height: 1.5em;
+}
+header h2 {
+  font-size: 1.5em;
+}
+header img {
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  header img {
+    max-width: 1440px;
+  }
+}
+main article {
+  background-image: linear-gradient(112.5deg, rgba(140, 108, 222, 0.2) 0%, rgba(140, 108, 222, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 100.002%), linear-gradient(67.5deg, rgba(140, 108, 222, 0.2) 0%, rgba(140, 108, 222, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 100.002%), linear-gradient(157.5deg, rgba(140, 108, 222, 0.2) 0%, rgba(140, 108, 222, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 16.667%, rgba(79, 175, 206, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 33.334%, rgba(109, 141, 214, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 50.001%, rgba(48, 209, 198, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 66.668%, rgba(201, 40, 238, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 83.335%, rgba(170, 74, 230, 0.2) 100.002%), linear-gradient(90deg, #90f2d3, #a190ff);
+  padding: 25% 0 25% 0;
+}
+main article#faq {
+  background-image: none;
+}
+main article#faq section {
+  background-color: #F1F1F1;
+  margin: 0.3em 1em;
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: space-between;
+}
+main article#faq section img {
+  width: 1em;
+  height: auto;
+}
+main article#perf {
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+}
+main article#perf section {
+  margin: 0.5em auto;
+}
+main article#remb {
+  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+}
+main article hr {
+  width: 25%;
+  margin: 0.2em auto 1em auto;
+}
+main article button {
+  color: #F1F1F1;
+  background-color: #8a56eb;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  border-radius: 1.5em;
+  padding: 0.8em 1.5em;
+  margin: 1em;
+  border: none;
+}
+
 footer {
   color: #333;
   font-family: "Roboto", sans-serif;
-  position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
   background-color: #F1F1F1;
   border-top: 1px dotted #333;
   padding-bottom: 1em;
+  margin-top: 2em;
 }
 footer h2 {
   margin: 0.5em;
@@ -28,6 +83,7 @@ footer img {
 body {
   font-family: "Comfortaa", cursive;
   font-size: 1.125em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
