@@ -2,10 +2,11 @@
 //MAJ par pilou le 22/09/21
 
 footer{
+    height: 30vh;
     color: $ardoise;
     font-family: $font2;
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
     width: 100%;
     background-color: $clair;
     border-top: 1px dotted $ardoise;

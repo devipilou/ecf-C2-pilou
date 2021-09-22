@@ -100,10 +100,9 @@ main article hr {
   }
 }
 footer {
+  height: 30vh;
   color: #333;
   font-family: "Roboto", sans-serif;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: #F1F1F1;
   border-top: 1px dotted #333;
@@ -156,10 +155,6 @@ body .button:hover a {
 }
 
 @media screen and (min-width: 376px) {
-  body {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
   body h2, body h3 {
     font-size: 3.5em;
   }
