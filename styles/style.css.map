@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_reset.scss","../scss/pages/_footer.scss","../scss/_variables.scss","../scss/pages/_accueil.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;ACLJ;EACI,OCCK;EDAL,aCSI;EDRJ;EACA;EACA;EACA;EACA;EACA,kBCLG;EDMH;EACA;;AACA;EACI;;AAEJ;EACI;EACA;EACA;;;AEZR;EACI,aDII;ECHJ,WDCM","file":"style.css"}

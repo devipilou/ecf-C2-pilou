@@ -1,0 +1,33 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #F1F1F1;
+  border-top: 1px dotted #333;
+  padding-bottom: 1em;
+}
+footer h2 {
+  margin: 0.5em;
+}
+footer img {
+  margin: 0.2em;
+  width: 1.5em;
+  height: auto;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.125em;
+}
+
+/*# sourceMappingURL=style.css.map */
